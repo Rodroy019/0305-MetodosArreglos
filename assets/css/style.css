@@ -1,0 +1,49 @@
+*{
+    margin: 10px;
+    padding: 0;
+}
+
+section{
+    margin-top: 50px;
+    margin-left: 50px;
+    height: auto;
+    width: 600px;
+    background-color: lightgray;
+    border: 2px solid black;
+}
+
+#inputTarea{
+    width: 400px;
+    height: 30px;
+    margin-right: 0px;
+}
+
+#btnAgregar{
+    background-color: darkorchid;
+    color: white;
+    width: 120px;
+    height: 30px;
+    border-radius: 10px;
+}
+#btnBorrar{
+    color: red;
+    width: 13px;
+    height: 13px;
+}
+span{
+    color: red;
+}
+
+#divInfo{
+    display: flex;
+    justify-content: space-between;
+}
+
+#divList{
+    margin-top: 0;
+    display: flex;
+}
+
+li{
+    list-style: none;
+}
