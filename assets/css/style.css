@@ -5,11 +5,15 @@
 
 section{
     margin-top: 50px;
-    margin-left: 50px;
+    margin-left: 30px;
     height: auto;
     width: 700px;
     background-color: lightgray;
     border: 2px solid black;
+}
+
+span{
+    color: red;
 }
 
 #inputTarea{
@@ -26,6 +30,17 @@ section{
     border-radius: 10px;
 }
 
+#divInfo{
+    display: flex;
+    justify-content: space-between;
+}
+
+#divList{
+
+    display: flex;
+    flex-direction: row;
+}
+
 .btnBorrar{
     color: red;
     width: 13px;
@@ -33,21 +48,17 @@ section{
     justify-content: center;
     align-items: center;
 }
-span{
-    color: red;
-}
 
-#divInfo{
-    display: flex;
-    justify-content: space-between;
-}
-
-#divList{
-    margin-top: 0;
+.fila {
     display: flex;
 }
 
-li{
-    list-style: none;
-    height: 15px;
+.columna {
+    flex: 1;
+    padding: 5px;
+    border: 1px solid #ddd;
+}
+
+.encabezado {
+    font-weight: bold;
 }
